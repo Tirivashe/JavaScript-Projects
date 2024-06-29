@@ -1,0 +1,89 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+span.java{
+    color: rgb(238, 219, 50);
+}
+
+span.css{
+    color: rgb(3, 108, 179);
+}
+
+span.html{
+    color: rgb(233, 25, 25);
+}
+
+span.home{
+    color: rgb(0, 0, 0);
+}
+
+
+.navbar-header{
+    background: #545454;
+    display: flex;
+    justify-content: space-between;
+    padding: 0.5rem 1rem;
+    border-bottom: 0.3rem solid #6baa75;
+}
+
+.navbar-btn{
+    align-self: center;
+    border: 5px solid #6baa75;
+    cursor: pointer;
+}
+
+.bar-1,.bar-2,.bar-3{
+    width: 30px;
+    height: 5px;
+    margin: 0.5rem;
+    background: #6baa75;
+    transition: all 1s ease;
+}
+
+.change .bar-1{
+    transform: rotate(-45deg) translate(-10px, 10px);
+}
+
+.change .bar-2{
+    opacity: 0;
+}
+
+.change .bar-3{
+    transform: rotate(45deg) translate(-8px, -8px);
+}
+
+.navbar-links{
+    list-style-type: none;
+    transition: all 1s ease;
+    height: 0;
+    overflow: hidden;
+}
+
+.navbar-collapse{
+    height: 240px;
+}
+
+.navbar-single-link{
+    display: block;
+    background: #69747c;
+    padding: 1rem;
+    font-size: 1.5rem;
+    text-decoration: none;
+    text-transform: capitalize;
+    color: #6baa75;
+    transition: all 0.3s ease;
+    cursor: pointer;
+}
+
+.navbar-single-link:hover{
+    padding-left: 1.4rem;
+    background: #545454;
+}
+
+header{
+    min-height: 1067px;
+    background: url(./madrid-skyscraper.jpg) center/cover no-repeat;
+}
